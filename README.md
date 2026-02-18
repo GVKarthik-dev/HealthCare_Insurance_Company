@@ -4,6 +4,8 @@ A high-performance FastAPI service that uses **LangGraph** and **Groq (Llama 3)*
 
 ## 🚀 Pipeline Overview
 
+![Workflow Diagram](workflow_v1.png)
+
 This service implements a document-intelligent pipeline that segregates PDF pages and extracts structured data using specialized agents.
 
 ### LangGraph Workflow

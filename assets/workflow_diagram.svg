@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
+  <style>
+    .box { fill:#f6f6ff; stroke:#9b84d6; stroke-width:3; rx:8; }
+    .oval { fill:#f6f6ff; stroke:#9b84d6; stroke-width:3; }
+    .text { font-family: Arial, Helvetica, sans-serif; font-size:14px; fill:#222; }
+    .small { font-size:12px; }
+    .arrow { stroke:#333; stroke-width:2; fill:none; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- start -->
+  <g transform="translate(200,20)">
+    <ellipse class="oval" rx="60" ry="22" cx="120" cy="20" />
+    <text class="text" x="120" y="24" text-anchor="middle">__start__</text>
+  </g>
+
+  <!-- segregator -->
+  <rect class="box" x="160" y="80" width="200" height="56" rx="8"/>
+  <text class="text" x="260" y="116" text-anchor="middle">segregator</text>
+
+  <!-- arrows from start to segregator -->
+  <path class="arrow" d="M260 42 L260 80" />
+
+  <!-- left agent (bill_agent) -->
+  <rect class="box" x="32" y="180" width="140" height="48" rx="8"/>
+  <text class="text" x="102" y="212" text-anchor="middle">bill_agent</text>
+
+  <!-- middle agent (discharge_agent) -->
+  <rect class="box" x="190" y="180" width="140" height="48" rx="8"/>
+  <text class="text" x="260" y="212" text-anchor="middle">discharge_agent</text>
+
+  <!-- right agent (id_agent) -->
+  <rect class="box" x="348" y="180" width="120" height="48" rx="8"/>
+  <text class="text" x="408" y="212" text-anchor="middle">id_agent</text>
+
+  <!-- arrows from segregator to agents -->
+  <path class="arrow" d="M200 136 L110 180" />
+  <path class="arrow" d="M260 136 L260 180" />
+  <path class="arrow" d="M320 136 L408 180" />
+
+  <!-- aggregator -->
+  <rect class="box" x="180" y="290" width="160" height="56" rx="8"/>
+  <text class="text" x="260" y="325" text-anchor="middle">aggregator</text>
+
+  <!-- arrows from agents to aggregator -->
+  <path class="arrow" d="M110 228 L200 290" />
+  <path class="arrow" d="M260 228 L260 290" />
+  <path class="arrow" d="M408 228 L340 290" />
+
+  <!-- arrow from aggregator to end -->
+  <path class="arrow" d="M260 346 L260 400" />
+
+  <!-- end -->
+  <g transform="translate(200,400)">
+    <ellipse class="oval" rx="60" ry="22" cx="120" cy="20" />
+    <text class="text" x="120" y="24" text-anchor="middle">__end__</text>
+  </g>
+
+</svg>

@@ -1,0 +1,188 @@
+{
+  "claim_id": "TEST_001",
+  "extracted_data": {
+    "identity_information": {
+      "patient_name": "JOHN MICHAEL SMITH",
+      "dob": "15-MAR-1985",
+      "id_number": "ID-987-654-321",
+      "policy_details": null
+    },
+    "discharge_summary": {
+      "diagnosis": "Community Acquired Pneumonia (CAP)",
+      "admission_date": "January 20, 2025",
+      "discharge_date": "January 25, 2025",
+      "physician_details": "Dr. Sarah Johnson, MD"
+    },
+    "itemized_bill": {
+      "items": [
+        {
+          "description": "Room Charges - Semi-Private (5 days)",
+          "cost": 1000.0
+        },
+        {
+          "description": "Admission Fee",
+          "cost": 150.0
+        },
+        {
+          "description": "Emergency Room Services",
+          "cost": 500.0
+        },
+        {
+          "description": "Physician Consultation - Dr. Sarah Johnson",
+          "cost": 750.0
+        },
+        {
+          "description": "Chest X-Ray",
+          "cost": 240.0
+        },
+        {
+          "description": "CT Scan - Chest",
+          "cost": 800.0
+        },
+        {
+          "description": "Complete Blood Count (CBC)",
+          "cost": 135.0
+        },
+        {
+          "description": "Blood Culture Test",
+          "cost": 160.0
+        },
+        {
+          "description": "Arterial Blood Gas Analysis",
+          "cost": 95.0
+        },
+        {
+          "description": "IV Fluids - Normal Saline",
+          "cost": 250.0
+        },
+        {
+          "description": "Injection - Ceftriaxone 1g",
+          "cost": 150.0
+        },
+        {
+          "description": "Injection - Paracetamol",
+          "cost": 48.0
+        },
+        {
+          "description": "Nebulization Treatment",
+          "cost": 140.0
+        },
+        {
+          "description": "Oxygen Therapy (per hour)",
+          "cost": 240.0
+        },
+        {
+          "description": "Nursing Care (per day)",
+          "cost": 500.0
+        },
+        {
+          "description": "ICU Monitoring Equipment",
+          "cost": 400.0
+        },
+        {
+          "description": "Physiotherapy Session",
+          "cost": 180.0
+        },
+        {
+          "description": "Medical Supplies & Consumables",
+          "cost": 250.0
+        },
+        {
+          "description": "Laboratory Processing Fee",
+          "cost": 75.0
+        },
+        {
+          "description": "Pharmacy Dispensing Fee",
+          "cost": 50.0
+        },
+        {
+          "description": "Amoxicillin 500mg Capsules",
+          "cost": 31.5
+        },
+        {
+          "description": "Acetaminophen 500mg Tablets",
+          "cost": 16.0
+        },
+        {
+          "description": "Cetirizine 10mg Tablets",
+          "cost": 9.0
+        },
+        {
+          "description": "Omeprazole 20mg Capsules",
+          "cost": 16.8
+        },
+        {
+          "description": "Albuterol Inhaler",
+          "cost": 35.0
+        },
+        {
+          "description": "Vitamin D3 1000 IU",
+          "cost": 12.0
+        },
+        {
+          "description": "Probiotic Capsules",
+          "cost": 25.5
+        },
+        {
+          "description": "Saline Nasal Spray",
+          "cost": 8.5
+        },
+        {
+          "description": "Antiseptic Mouthwash 250ml",
+          "cost": 12.0
+        },
+        {
+          "description": "Digital Thermometer",
+          "cost": 15.0
+        },
+        {
+          "description": "Medication Counseling",
+          "cost": 25.0
+        },
+        {
+          "description": "Home Delivery Service",
+          "cost": 10.0
+        }
+      ],
+      "total_amount": 6421.0
+    }
+  },
+  "document_segregation": {
+    "claim_forms": [
+      0
+    ],
+    "cheque_or_bank_details": [
+      1
+    ],
+    "identity_document": [
+      2
+    ],
+    "itemized_bill": [
+      8,
+      9
+    ],
+    "discharge_summary": [
+      3
+    ],
+    "prescription": [
+      4
+    ],
+    "investigation_report": [
+      5,
+      10,
+      11
+    ],
+    "cash_receipt": [
+      6
+    ],
+    "other": [
+      7,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+}
